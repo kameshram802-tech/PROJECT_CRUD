@@ -22,6 +22,7 @@ To develop a Django-based CRUD web application using Bootstrap to perform Create
 ## form.html
 ```
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,18 +35,13 @@ To develop a Django-based CRUD web application using Bootstrap to perform Create
 <body class="bg-light">
 
 <div class="container my-5">
-
-    <!-- Heading -->
     <div class="text-center mb-5">
         <h1 class="fw-bold text-primary">Student Management Portal</h1>
         <p class="text-secondary">Manage Student Records Easily</p>
     </div>
 
 
-    <!-- Register + Student List -->
     <div class="row mb-4">
-
-        <!-- Register Student -->
         <div class="col-lg-4 mb-4">
 
             <div class="card shadow h-100">
@@ -98,9 +94,6 @@ To develop a Django-based CRUD web application using Bootstrap to perform Create
                 </div>
             </div>
         </div>
-
-
-        <!-- Student List -->
         <div class="col-lg-8 mb-4">
 
             <div class="card shadow h-100">
@@ -175,13 +168,8 @@ To develop a Django-based CRUD web application using Bootstrap to perform Create
         </div>
 
     </div>
-
-
-
-    <!-- Update + Delete -->
     <div class="row">
 
-        <!-- Update Student -->
         <div class="col-lg-6 mb-4">
 
             <div class="card shadow h-100">
@@ -257,10 +245,6 @@ To develop a Django-based CRUD web application using Bootstrap to perform Create
                 </div>
             </div>
         </div>
-
-
-
-        <!-- Delete Student -->
         <div class="col-lg-6 mb-4">
 
             <div class="card shadow h-100">
@@ -314,8 +298,6 @@ To develop a Django-based CRUD web application using Bootstrap to perform Create
 
     </div>
 
-
-    <!-- Footer -->
     <div class="text-center mt-4 mb-3">
 
         <p class="text-secondary">
@@ -332,6 +314,7 @@ To develop a Django-based CRUD web application using Bootstrap to perform Create
 
 </body>
 </html>
+
 
 ```
 ## models.py
